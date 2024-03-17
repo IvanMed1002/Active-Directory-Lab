@@ -2,7 +2,7 @@
 
 <h2>Lab Objective</h2>
 
-<br>Install Windows Server 2019 on the new virtual machine and add the Active Directory Domain Services role to the server. Promote the server to a domain controller and create a new domain while also configuring DHCP. Use a PowerShell script to create over 1,000 users in Active Directory. Create a new virtual machine with Windows 10 and join it to the domain. Log in to the Windows 10 virtual machine with one of the newly created user accounts. <br />
+<br>Install Windows Server 2019 on the new virtual machine in VirtualBox and add the Active Directory Domain Services role to the server. Promote the server to a domain controller and create a new domain while also configuring DHCP. Use a PowerShell script to create over 1,000 users in Active Directory. Create a new virtual machine with Windows 10 and join it to the domain. Log in to the Windows 10 virtual machine with one of the newly created user accounts. <br />
 
 <h2>Environments Used </h2>
 
@@ -128,9 +128,52 @@
 
 
 
+- <b>Run a PowerShell Script to Create Users in Active Directory</b>
+
+1. Instead of manually creating each user, we’ll use a PowerShell script to create over 1000 users at once.<br/>
+2. Enable “drag and drop” between your host and guest machine to allow scipt file to be downloaded from host machine and tranfered over to VM machine.
+3. Run script as Administrator in PowerShell ISE.
+
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
 
 
+- <b>Setup a Client Computer and Login to it Using Active Directory Accounts</b>
 
+1. Create a new virtual machine using Windows 11 ISO and place the VM on the same internal network as the Domain Controller.<br/>
+2 Log in with one of the accounts that you created earlier and then test network connectivity by pinging “mydomain.com.”
+
+
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
 
 
 
