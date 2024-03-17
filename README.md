@@ -31,7 +31,7 @@
 
  1. Start the VM and follow the prompts to install Windows Server 2019.<br/>
  2. Install “Guest Additions” to enhance the overall usability of the VM and enable features like resizing the VM window and clipboard sharing between the host and guest operating systems.<br/>
- 3. Set up the network adapters in VirtualBox.<br/>
+ 3. Set up the network adapters in VirtualBox and Windows Server.<br/>
 
  
 <img src="https://i.imgur.com/fFOllVt.png"/>
@@ -53,9 +53,108 @@
 <img src="https://i.imgur.com/oE0cBJT.png"/>
 
 -----------------------------------------------
+ 
+<img src=""/>
+
+-----------------------------------------------
 
 
 
+
+- <b>Set up Active Directory Domain Services Role</b>
+
+1. Log in to Windoes Server Vm as administrator and open "Server Manager" to "Add Roles and Features" <br/>
+2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
+
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+
+
+- <b>Create a dediccated domain administrator account and then give it admin privileges</b>
+
+1. Open the Active Directory Users and Computers tool on your domain controller <br/>
+2. Create new organization unit named "_ADMINS_" and create user called "admin".
+3. Add "admin" user to domain group to make user a member of "domain admins" 
+
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+
+
+
+- <b>Configure a Dynamic Host Configuration Protocol (DHCP)</b>
+
+1. Install the DHCP server role in Server Manager (this will allow automatically assign IP addresses)<br/>
+2. Create a new DHCP scope for IP address range and subnet mask.
+3. Authorize the DHCP server to allow the DHCP server to provide IP addresses to devices on the network.
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- <b></b>
+
+1. <br/>
+
+
+ 
+<img src=""/>
+
+-----------------------------------------------
+
+<img src=""/>
+
+-----------------------------------------------
 
 
 
