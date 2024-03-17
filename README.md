@@ -1,4 +1,4 @@
-<h1>Active Directory</h1>
+<h1>Active Directory (IAM)</h1>
 
 <h2>Lab Objective</h2>
 <br> <br />
