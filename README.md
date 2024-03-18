@@ -65,7 +65,6 @@
 - <b>Set up Active Directory Domain Services Role</b>
 
 1. Log in to Windoes Server Vm as administrator and open "Server Manager" to "Add Roles and Features" <br/>
-2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
 
  
 <img src="https://i.imgur.com/k4q9YXG.png"/>
@@ -83,6 +82,7 @@
 <img src="https://i.imgur.com/9zXA6vw.png"/>
 
 -----------------------------------------------
+
 2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
 
 <img src="https://i.imgur.com/ppe8ksN.png"/>
@@ -105,24 +105,27 @@
 
 -----------------------------------------------
 
-
-
 - <b>Create a dediccated domain administrator account and then give it admin privileges</b>
 
-1. Open the Active Directory Users and Computers tool on your domain controller <br/>
-2. Create new organization unit named "_ADMINS_" and create user called "admin".
-3. Add "admin" user to domain group to make user a member of "domain admins" 
+1. Open the Active Directory Users and Computers tool on your domain controller and create new organization unit named "_ADMINS_" and create user called "admin".<br/>
+2. Add "admin" user to domain group to make user a member of "domain admins" 
 
  
-<img src=""/>
+<img src="https://i.imgur.com/KpDSRsn.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/qDBOx81.png"/>
 
 -----------------------------------------------
 
+<img src="https://i.imgur.com/d0udSlO.png"/>
 
+-----------------------------------------------
+
+<img src="https://i.imgur.com/VUwhyF9.png"/>
+
+-----------------------------------------------
 
 
 - <b>Configure a Dynamic Host Configuration Protocol (DHCP)</b>
