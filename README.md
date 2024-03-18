@@ -54,12 +54,13 @@
 
 -----------------------------------------------
  
-<img src=""/>
+<img src="https://i.imgur.com/piXXsCv.png"/>
 
 -----------------------------------------------
 
+<img src="https://i.imgur.com/vD8WLFp.png"/>
 
-
+-----------------------------------------------
 
 - <b>Set up Active Directory Domain Services Role</b>
 
@@ -67,27 +68,40 @@
 2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
 
  
-<img src=""/>
+<img src="https://i.imgur.com/k4q9YXG.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/DVa0Zgx.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/DQtE10F.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/9zXA6vw.png"/>
+
+-----------------------------------------------
+2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
+
+<img src="https://i.imgur.com/ppe8ksN.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/IYHlCjP.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/eSZUEpe.png"/>
+
+-----------------------------------------------
+
+<img src="https://i.imgur.com/GowC8UJ.png"/>
+
+-----------------------------------------------
+
+<img src="https://i.imgur.com/cmzK4fj.png"/>
 
 -----------------------------------------------
 
