@@ -134,15 +134,25 @@
 2. Create a new DHCP scope for IP address range and subnet mask.
 3. Authorize the DHCP server to allow the DHCP server to provide IP addresses to devices on the network.
  
-<img src=""/>
+<img src="https://i.imgur.com/o5jZPEE.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/6zjUYSL.png"/>
 
 -----------------------------------------------
 
+<img src="https://i.imgur.com/ojkV6n9.png"/>
 
+-----------------------------------------------
+
+<img src="https://i.imgur.com/qCEWZfu.png"/>
+
+-----------------------------------------------
+
+<img src="https://i.imgur.com/8kywnJj.png"/>
+
+-----------------------------------------------
 
 
 - <b>Run a PowerShell Script to Create Users in Active Directory</b>
@@ -152,22 +162,25 @@
 3. Run script as Administrator in PowerShell ISE.
 
  
-<img src=""/>
+<img src="https://i.imgur.com/rfCpLFc.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/PXQ9ZU4.png"/>
 
 -----------------------------------------------
  
-<img src=""/>
+<img src="https://i.imgur.com/HVior0F.png"/>
 
 -----------------------------------------------
 
-<img src=""/>
+<img src="https://i.imgur.com/uhYDSVI.png"/>
 
 -----------------------------------------------
 
+<img src="https://i.imgur.com/8kUlYxI.png"/>
+
+-----------------------------------------------
 
 - <b>Setup a Client Computer and Login to it Using Active Directory Accounts</b>
 
