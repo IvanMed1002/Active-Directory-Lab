@@ -65,7 +65,7 @@
 
 - <b>Set up Active Directory Domain Services Role</b>
 
-1. Log in to Windoes Server Vm as administrator and open "Server Manager" to "Add Roles and Features" <br/>
+1. Login to Windows Server Vm as administrator and open "Server Manager" to "Add Roles and Features" <br/>
 
  
 <img src="https://i.imgur.com/k4q9YXG.png"/>
@@ -84,7 +84,8 @@
 
 -----------------------------------------------
 
-2. Promote the Virtula Machine to a Domain Controller (this will manage network secuirties and allow users to authenticate and access network  resources).
+2. Promote the Virtual Machine to a Domain Controller (this will manage network securities and allow users to authenticate and access network  resources).<br/>
+
 
 <img src="https://i.imgur.com/ppe8ksN.png"/>
 
@@ -106,10 +107,10 @@
 
 -----------------------------------------------
 
-- <b>Create a dediccated domain administrator account and then give it admin privileges</b>
+- <b>Create a dedicated domain administrator account and then give it admin privileges</b>
 
 1. Open the Active Directory Users and Computers tool on your domain controller and create new organization unit named "_ADMINS_" and create user called "admin".<br/>
-2. Add "admin" user to domain group to make user a member of "domain admins" 
+2. Add "admin" user to domain group to make user a member of "domain admins"<br/>
 
  
 <img src="https://i.imgur.com/KpDSRsn.png"/>
@@ -132,8 +133,10 @@
 - <b>Configure a Dynamic Host Configuration Protocol (DHCP)</b>
 
 1. Install the DHCP server role in Server Manager (this will allow automatically assign IP addresses)<br/>
-2. Create a new DHCP scope for IP address range and subnet mask.
-3. Authorize the DHCP server to allow the DHCP server to provide IP addresses to devices on the network.
+2. Create a new DHCP scope for IP address range and subnet mask.<br/>
+3. Authorize the DHCP server to allow the DHCP server to provide IP addresses to devices on the network.<br/>
+
+
  
 <img src="https://i.imgur.com/o5jZPEE.png"/>
 
@@ -155,12 +158,11 @@
 
 -----------------------------------------------
 
-
 - <b>Run a PowerShell Script to Create Users in Active Directory</b>
 
 1. Instead of manually creating each user, we’ll use a PowerShell script to create over 1000 users at once.<br/>
-2. Enable “drag and drop” between your host and guest machine to allow scipt file to be downloaded from host machine and tranfered over to VM machine.
-3. Run script as Administrator in PowerShell ISE.
+2. Enable “drag and drop” between your host and guest machine to allow script file to be downloaded from the host machine and transferred over to the VM machine.<br/>
+3. Run script as Administrator in PowerShell ISE.<br/>
 
  
 <img src="https://i.imgur.com/rfCpLFc.png"/>
@@ -186,9 +188,7 @@
 - <b>Setup a Client Computer and Login to it Using Active Directory Accounts</b>
 
 1. Create a new virtual machine using Windows 11 ISO and place the VM on the same internal network as the Domain Controller.<br/>
-2 Log in with one of the accounts that you created earlier and then test network connectivity by pinging “mydomain.com.”
-
-
+2 Log in with one of the accounts that you created earlier and then test network connectivity by pinging “mydomain.com".<br/>
  
 <img src="https://i.imgur.com/KtGloH0.png"/>
 
