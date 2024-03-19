@@ -14,7 +14,7 @@
 
 - <b>Set up Virtual Environment </b>
 
-1. Download and install VirtualBox<br/>
+1. Download and install VirtualBox.<br/>
 2. Download Microsoft Server 2019 iso from Microsoft.<br/>
 3. Create new VM with Microsoft Server 2019 as OS.<br/>
 
