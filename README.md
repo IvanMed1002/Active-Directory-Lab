@@ -12,10 +12,10 @@
 
 <h2>Project Walk-Through Overview </h2>
 
-- <b>Set up Virtual Envirnment </b>
+- <b>Set up Virtual Environment </b>
 
-1. Download and install VirtulBox<br/>
-2. Download Microsoft Server 2019 iso from Microfsoft.<br/>
+1. Download and install VirtualBox<br/>
+2. Download Microsoft Server 2019 iso from Microsoft.<br/>
 3. Create new VM with Microsoft Server 2019 as OS.<br/>
 
  
@@ -27,11 +27,12 @@
 
 -----------------------------------------------
 
-- <b>Set Up Windows Server</b>
+- <b>Setup Windows Server</b>
 
  1. Start the VM and follow the prompts to install Windows Server 2019.<br/>
  2. Install “Guest Additions” to enhance the overall usability of the VM and enable features like resizing the VM window and clipboard sharing between the host and guest operating systems.<br/>
  3. Set up the network adapters in VirtualBox and Windows Server.<br/>
+
 
  
 <img src="https://i.imgur.com/fFOllVt.png"/>
